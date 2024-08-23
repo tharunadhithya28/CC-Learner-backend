@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "backend": "nodemon server.js"
+    "backend": "nodemon server.js",
+      "build": "CI=false npm run build"
   },
   "keywords": [],
   "author": "",
